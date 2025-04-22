@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title><link rel="stylesheet" href="med.css">
+</head>
+
+<body>
+    <form action="personal detail" method="post">
+        <div>
+            <label for="name"> Full Name : </label>
+            <input size="50" type="text" id="name" name="perosn_name"
+                placeholder="First name     Middle name     Last Name " 
+                required>
+        </div>
+         
+        <div><label for="age">Age :</label>
+            <input type="number" name="perosn_age" id="age" required min="18">
+        </div>
+         
+
+        <div><label for="email">Email : </label>
+            <input type="email" name="person_email" id="email">
+        </div>
+        <span>
+            <label for="password">Password :</label>
+            <input type="password" name="Password" id="password" maxlength="8" >
+        </span>
+         
+
+        <div><label for="address">Address :</label>
+            <input size="100" type="text" name="person_address" id="address" required>
+        </div>
+         
+
+        <div><label for="medical condition">Medicial Condition :</label>
+            <!-- <input type="checkbox" name="medical_condition" id="medical condition"> -->
+            <select name="medical_condition" id="medical condition" required>
+                <option value="selct">Select one option</option>
+                <option value="diabetes">Diabetes</option>
+                <option value="Blood Pressure">Blood Pressure</option>
+                <option value="Fever">Fever</option>
+                <option value="TB">TB</option>
+                <option value="Headcahe">Headcahe</option>
+                <option value="Ayurvedic">Ayurvedic</option>
+                
+            </select>
+        </div>
+         
+        <div><label for="phone_number">Mobile Number :</label>
+        <input type="tel" name="phone_number" id="phone_number"></div>
+         
+
+        
+        <input type="submit" value="SUBMIT FORM" id="submit">
+           
+        <input type="reset" value="RESET FORM">
+
+
+    </form>
+</body>
+
+</html>

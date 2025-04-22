@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushi Medicines</title>
+    <link rel="stylesheet" href="med.css">
+    <style>
+        table{
+            border: 2cm;
+            border-collapse: collapse;
+        }
+        #title{
+            font-size: xx-large; 
+            color: red;height: 2cm;
+            background-color: rgb(253, 253, 253);
+            padding-left: 7cm;
+
+        }
+        a.homepage{
+            text-decoration: none;
+            color: rgb(0, 4, 7);
+            font-family:Georgia, 'Times New Roman', Times, serif
+        }
+        a.homepage:hover{
+            color: rgb(58, 16, 113);
+            text-decoration: underline;
+        }
+        #sub1{
+            font-size:1cm;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            text-align: left;
+            height: 2.1cm;
+        }
+        .prices{
+            vertical-align: top;
+             font-weight: bold;
+        }
+        .product-container{
+            display: flex;
+            padding: 20%;
+        }
+    </style>
+</head>
+
+<body> 
+    <table>
+    
+        <tr>
+            <tr>
+                <td height="120"><img src="logo.png" alt="logo" width="95" height="95"></td>
+                <td id="title" colspan="3" > <strong>KHUSHI MEDICINES </strong></td>
+                </tr>
+        </tr>
+        <tr>
+            <th width="500cm" height="50cm" style="background-color: rgb(126, 160, 160); "><a class="homepage" href="http://127.0.0.1:3000/khushi medicines.html">Home</a></th>
+            <th width="500cm" height="50cm" style="background-color: rgb(126, 160, 160);"><a class="homepage"  href="http://127.0.0.1:3000/medicines.html">Buy Medicines</a></th>
+            <th width="500cm" height="50cm" style="background-color: rgb(126, 160, 160);"><a class="homepage" href="http://127.0.0.1:3000/medicaldevices.html">Medical Equipments</a></th>
+            <th width="500cm" height="50cm" style="background-color: rgb(126, 160, 160);"><a class="homepage" href="http://127.0.0.1:3000/account.html">My Account</a></th>
+        </tr>
+        <tr style="background-color: rgb(93, 97, 139);">
+            <td id="sub1" colspan="4">Top Discounted Medicines 💰</td>
+        </tr>
+        <div class="product-container">
+            <div class="product-box"><a href="" target="_blank"><img width="100cm" src="med1.png" alt="med1"> </a></div>
+            <div class="product-box"><a href="" target="_blank"><img src="med2.png" alt="med2"> </a></div>
+            <div class="product-box"><a href="" target="_blank"><img src="med3.png" alt="med3"></a></div>
+            <div class="product-box"><a href="" target="_blank"><img src="med4.png" alt="med4"></a></div>
+        </div>
+        
+        <tr style="background-color: rgb(93, 97, 139);">
+            <td height="30cm" class="prices">₹150 &nbsp;<sub><strike>₹200</strike> 20% off</sub> <br> <a href="">Buy Now</a></td>
+            <td class="prices">₹100 &nbsp;<sub><strike>₹160</strike> 40% off</sub><br> <a href="">Buy Now</a></td>
+            <td class="prices">₹50 &nbsp;<sub><strike>₹100</strike> 50% off</sub><br> <a href="">Buy Now</a></td>
+            <td class="prices">₹60 &nbsp;<sub><strike>₹140</strike> 55% off</sub><br> <a href="">Buy Now</a></td>
+        </tr>
+        <tr>
+            <td><a href=""><img src="med5.png" alt="med5"></a></td>
+            <td><a href=""><img src="med6.png" alt="med6"></a></td>
+            <td><a href=""><img src="med7.png" alt="med7"></a></td>
+            <td><img src="med8.png" alt="med8"></td>
+        </tr>
+        <tr style="background-color: rgb(93, 97, 139);">
+            <td height="80"class="prices">₹150 &nbsp;<sub><strike>₹200</strike> 20% off</sub></td>
+            <td class="prices">₹100 &nbsp;<sub><strike>₹160</strike> 40% off</sub></td>
+            <td class="prices">₹50 &nbsp;<sub><strike>₹100</strike> 50% off</sub></td>
+            <td class="prices">₹60 &nbsp;<sub><strike>₹140</strike> 55% off</sub></td>
+        </tr>
+
+
+    </table>
+   
+</body>
+
+</html>
